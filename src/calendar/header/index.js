@@ -114,6 +114,25 @@ class CalendarHeader extends Component {
         </TouchableOpacity>
       );
     }
+    let hideBtn = (
+      <TouchableOpacity
+        style={{
+          paddingLeft: 5,
+          marginLeft: -10,
+          paddingRight: 10,
+          justifyContent: 'center',
+          flexDirection: 'row',
+          alignItems: 'center'
+        }}
+        onPress={() => this.props.hideUp()
+        }>
+        <Image
+          style={{width: 12, height: 12, resizeMode: 'contain'}}
+          source={require('../img/arr_up.png')}
+        />
+      </TouchableOpacity>
+    );
+
     let indicator;
     if (this.props.showIndicator) {
       indicator = <ActivityIndicator color={this.props.theme && this.props.theme.indicatorColor} />;
@@ -126,6 +145,7 @@ class CalendarHeader extends Component {
             <Text allowFontScaling={false} style={this.style.monthText} accessibilityTraits='header'>
               {this.props.month.toString(this.props.monthFormat)}
             </Text>
+            {hideBtn}
             {indicator}
           </View>
           {rightArrow}

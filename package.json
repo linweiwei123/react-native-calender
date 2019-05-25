@@ -1,6 +1,6 @@
 {
-  "name": "react-native-calendars",
-  "version": "1.22.0",
+  "name": "react-native-calender",
+  "version": "1.0.0",
   "main": "src/index.js",
   "description": "React Native Calendar Components",
   "scripts": {
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wix/react-native-calendars"
+    "url": "git+https://github.com/linweiwei123/react-native-calender.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "author": "Wix.com",
+  "author": "linweiwei",
   "license": "MIT",
   "dependencies": {
     "lodash.get": "^4.4.2",

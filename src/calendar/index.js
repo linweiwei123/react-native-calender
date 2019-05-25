@@ -264,6 +264,7 @@ class Calendar extends Component {
           month={this.state.currentMonth}
           addMonth={this.addMonth}
           showIndicator={indicator}
+          hideUp={this.props.hideUp}
           firstDay={this.props.firstDay}
           renderArrow={this.props.renderArrow}
           monthFormat={this.props.monthFormat}
