@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.0.0",
     "jasmine": "^2.5.2",
     "semver": "5.x.x",
